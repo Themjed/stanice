@@ -1,0 +1,10 @@
+
+:root {
+    	
+--bs-success: #FF00FF;
+--bs-success-rgb: 255, 0, 255;
+}
+
+.bg-success {
+    background-color: #FF00FF !important;
+}
