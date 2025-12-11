@@ -1,136 +1,122 @@
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<header>
     <title>Stanice</title>
-</header>
-<section class="navbar">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
-        <div class="container">
-            <a class="navbar-brand text-white fw-bold" href="#">Naše Zvířata</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav text-white fw-bold">
-                    <li class="nav-item"><a class="nav-link text-white" href="#">Domů</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="stenata.html">Štěňata</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="plemeno.html">O plemeni & Péče</a></li>
-                </ul>
-            </div>
+</head>
+
+<!DOCTYPE html>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#">Domů</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-white" href="nase_zvirata.html">Naše Zvířata </a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="stenata.html">Štěňata</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="plemeno.html">O plemeni & Péče</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
-</section class="navbar">
-<section class="container my-5">
-    <div class="text-center">
-        <h2 class="mb-4 fw-bold">O našich zvířatech</h2>
-        <p class="fw-bold">
-            Naši francouzští buldočci jsou chováni s láskou, respektem a důrazem na zdraví i vyrovnanou povahu.
-                Každý jedinec pochází z pečlivě vybraného spojení, které respektuje standard plemene a přináší ty
-                nejlepší vlastnosti tohoto jedinečného psa – oddanost, hravost a přátelský charakter.
-        </p>
-        <p>
-            <strong>Dbáme na pravidelné zdravotní testy a kontrolu genetických predispozic. Naši psi vyrůstají v domácím
-                prostředí, kde jsou od malička zvyklí na kontakt s lidmi i ostatními zvířaty. Věříme, že kvalitní chov
-                začíná důvěrou, péčí a skutečným vztahem ke každému zvířeti.</strong>
-        </p>
+
+  <header class="py-5 text-center bg-white shadow-sm">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Naše Zvířata</h1>
+      <p class="lead">Poctivý chov, láska k pejskům a zdravá štěňata.</p>
+      <a href="" class="btn btn-success btn-lg mt-3">Dostupná mláďata</a>
+      <a href="stenata.html" class="btn btn-outline-success btn-lg mt-3 ms-2">Poznat náš chov</a>
     </div>
-</section>
-<section class="karty">
-    <div class="card mb-3 shadow-sm" style="max-width: 540px; margin: auto;">
-        <img src="images/pes.jpeg" class="card-img-top" alt="Hrabe">
+  </header>
 
-        <div class="card-body">
-            <h5 class="card-title fw-bold text-center">Hrábě Kákula</h5>
-
-            <p class="mb-1"><strong>Datum narození:</strong> 12. září 2025</p>
-            <p class="mb-1"><strong>Povaha:</strong> Přátelská, klidná, skvělá s dětmi.</p>
-            <p class="mb-1"><strong>Zdravotní testy:</strong> Negativní <br>
-            </p>
-            <p class="mb-3"><strong>Rodiče:</strong> Argo × Lira</p>
-
-            <a href="#" class="btn btn-success btn-sm w-100">Rodokmen (PDF)</a>
-        </div>
-
+  <section id="o-nas" class="py-5">
+    <div class="container">
+      <h2 class="mb-3">Kdo jsme</h2>
+      <p>
+        Jsme rodinná stanice s láskou k pejskům. Zaměřujeme se na zdraví, socializaci
+        a kvalitní podmínky pro každé mládě. Máme roky zkušeností, stabilní zázemí
+        a důraz na poctivý chov.
+      </p>
     </div>
+  </section>
 
-</section>
-<div class="container my-5">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-        <div class="col">
-            <div class="card">
-                <img src="images/pes2.jpeg" class="card-img-top" alt="pes">
-                <div class="card-body">
-                    <p class="card-text">
-                        <strong>Jméno:</strong> Jeffina<br>
-                        <strong>Povaha:</strong> Hrava, přátelská s ostatními psy.<br>
-                        <strong>Zdravotní testy:</strong> Negativní (05. 09. 2025)
-                    </p>
-                    <a href="#" class="btn btn-success btn-sm w-100">Rodokmen (PDF)</a>
-                </div>
+  <section id="mladata" class="py-5 bg-white text-center">
+    <div class="container">
+      <h2 class="text-center mb-4">Aktuálně k odběru</h2>
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <img src="images/pes22.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Štěně – Vrh A</h5>
+              <p class="card-text">Narození: 12. 1. 2025<br> Stav: Volné</p>
+              <a href="#" class="btn btn-success">Detail</a>
             </div>
+          </div>
         </div>
 
-        <div class="col">
-            <div class="card">
-                <img src="images/kratos.jpg" class="card-img-top" alt="pes">
-                <div class="card-body">
-                    <p class="card-text">
-                        <strong>Jméno:</strong> Kratos<br>
-                        <strong>Povaha:</strong> Klidný, miluje děti.<br>
-                        <strong>Zdravotní testy:</strong> Negativní (12. 08. 2025)
-                    </p>
-                    <a href="#" class="btn btn-success btn-sm w-100">Rodokmen (PDF)</a>
-                </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <img src="images/pes11.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Štěně – Vrh B</h5>
+              <p class="card-text">Narození: 5. 2. 2025<br> Stav: Rezervace</p>
+              <a href="#" class="btn btn-success">Detail</a>
             </div>
+          </div>
         </div>
 
-        <div class="col">
-            <div class="card">
-                <img src="images/pes3.jpeg" class="card-img-top" alt="pes">
-                <div class="card-body">
-                    <p class="card-text">
-                        <strong>Jméno:</strong> Luna<br>
-                        <strong>Povaha:</strong> Energická, přítulná.<br>
-                        <strong>Zdravotní testy:</strong> Negativní (20. 07. 2025)
-                        <a href="#" class="btn btn-success btn-sm w-100">Rodokmen (PDF)</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col">
-            <div class="card">
-                <img src="images/pes4.jpeg" class="card-img-top" alt="pes">
-                <div class="card-body">
-                    <p class="card-text">
-                        <strong>Jméno:</strong> Galaxy Destroyer<br>
-                        <strong>Povaha:</strong> Přátelský, učenlivý, nemá rád Kratose.<br>
-                        <strong>Zdravotní testy:</strong> Negativní (15. 09. 2025)
-                    </p>
-                    <a href="#" class="btn btn-success btn-sm w-100">Rodokmen (PDF)</a>
-                </div>
-            </div>
-        </div>
-
+      </div>
     </div>
-</div>
+  </section>
 
-<div class="card-body">
-
-    <div class="card mb-3 shadow-sm" style="max-width: 540px; margin: auto;">
-
-        <h5 class="card-title fw-bold text-center">Surinka</h5>
-
-        <p class="mb-1"><strong>Datum narození:</strong> 12. září 2025</p>
-        <p class="mb-1"><strong>Povaha:</strong> Přátelská, klidná, skvělá s dětmi.</p>
-        <p class="mb-1"><strong>Zdravotní testy:</strong> Negativní <br>
-        </p>
-        <p class="mb-3"><strong>Rodiče:</strong> Argo × Lira</p>
-
-        <a href="#" class="btn btn-success btn-sm w-100">Rodokmen (PDF)</a> <img src="images/blackcat.jpg"
-            class="card-img-bottom img-fluid rounded mb-4 " alt="Suri">
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Proč nám věřit?</h2>
+      <div class="row">
+        <div class="col-md-4"><h4>10+ let praxe</h4></div>
+        <div class="col-md-4"><h4>Členové chovatelského klubu</h4></div>
+        <div class="col-md-4"><h4>Zdravotní testy & certifikace</h4></div>
+      </div>
     </div>
+  </section>
+
+
+  <section class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Reference</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <blockquote class="blockquote p-3 bg-light border rounded">
+            "Skvělý přístup a nádherná štěňata! Doporučujeme!"
+            <footer class="blockquote-footer mt-2">Rodina Novákových</footer>
+          </blockquote>
+        </div>
+        <div class="col-md-6">
+          <blockquote class="blockquote p-3 bg-light border rounded">
+            "Chov úplně na jedničku. Zdravé, socializované štěně."
+            <footer class="blockquote-footer mt-2">Tereza K.</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="kontakt" class="py-4 bg-success text-white text-center">
+    <div class="container">
+      <h5>Kontaktujte nás</h5>
+      <p>Telefon: +420 123 456 789</p>
+      <p>Email: info@stanice.cz</p>
+      <a href="#" class="btn btn-outline-light">Odeslat dotaz</a>
+    </div>
+  </footer>
+
+</body>
+</html>
