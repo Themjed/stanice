@@ -1,0 +1,136 @@
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanice</title>
+</head>
+
+<section class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="kontakty.html">kontakty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-white fw-bold">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Domů</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Naše Zvířata </a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="stenata.html">Štěňata</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="plemeno.html">O plemeni & Péče</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section id="kontakt-rezervace" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Kontakt & Rezervace</h2>
+
+        <div class="row g-5">
+
+            <div class="col-md-5">
+                <h4>Kontaktní informace</h4>
+                <p><strong>Telefon:</strong> +420 123 456 789</p>
+                <p><strong>Email:</strong> info@stanice.cz</p>
+                <p><strong>Sociální sítě:</strong><br>
+                    Facebook / Instagram
+                </p>
+
+                <h5 class="mt-4">Provozní doba</h5>
+                <p>
+                    Po–Pá: 9:00 – 17:00<br>
+                    Víkendy: dle domluvy
+                </p>
+
+                <h5 class="mt-4">Adresa & návštěvy</h5>
+                <p>
+                    <a>Náměstí Republiky<br></a>
+                    <a>Parkování možné přímo u objektu.</a>
+
+                </p>
+            </div>
+
+
+            <div class="col-md-7">
+                <h4>Rezervační formulář</h4>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Jméno a příjmení</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">E-mail</label>
+                        <input type="email" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Telefon</label>
+                        <input type="tel" class="form-control" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">O co máte zájem?</label>
+                        <select class="form-select">
+                            <option>Štěně – aktuální vrh</option>
+                            <option>Budoucí vrh</option>
+                            <option>Obecný dotaz</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Něco o vás a vašich podmínkách</label>
+                        <textarea class="form-control" rows="4" placeholder=""></textarea>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" required>
+                        <label class="form-check-label">
+                            Souhlasím se zpracováním osobních údajů (GDPR)
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">
+                        Odeslat žádost
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h4>Dokumenty ke stažení</h4>
+                <a href="#" class="btn btn-outline-success m-2">Kupní smlouva (vzor)</a>
+                <a href="#" class="btn btn-outline-success m-2">Chovatelský řád</a>
+                <a href="#" class="btn btn-outline-success m-2">Checklist výbavy</a>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col">
+                <h4 class="text-center mb-3">Kde nás najdete</h4>
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.google.com/maps?q=Praha&output=embed" style="border:0;" allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer id="kontakt" class="py-4 bg-success text-white text-center">
+    <div class="container">
+        <h5>Kontaktujte nás</h5>
+        <p>Telefon: +420 123 456 789</p>
+        <p>Email: info@stanice.cz</p>
+        <a href="#" class="btn btn-outline-light">Odeslat dotaz</a>
+    </div>
+</footer>
